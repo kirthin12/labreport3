@@ -762,7 +762,9 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep -v The technical/plos/journal.pbio
 ```
 
 ## 3. `grep --color=always`
+
 - **Example 1:** Here we are highligthing/coloring and only inclduing lines that contain the substring "result".
+
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always results technical/biomed/1468-6708-3-7.txt
         of CHF results from a harmful effect of doxazosin, a
@@ -774,6 +776,8 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always results technical/b
 ![Image](image1.png)
 
 - **Example 2:** Here we are highligthing/coloring and only inclduing lines that contain the substring "terrorism".
+
+
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always terrorism technical/911report/chapter-2.txt
                 terrorism and of attacks on civilians, he replied:"We believe that the worst thieves
@@ -782,6 +786,8 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always terrorism technical
 ![Image](image2.png)
 
 - **Example 3:** Here we are highligthing/coloring and only inclduing lines that contain the substring "challenges".
+
+
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always challenges technical/government/About_LSC/diversity_priorities.txt 
 and challenges facing clients, staff and program leaders (both
