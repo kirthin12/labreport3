@@ -1,12 +1,22 @@
 # Lab Report 3: `grep` Command-Line Options
 
 
-## 1. `-m NUM`
-| Examples      | Code |
-| ----------- | ----------- |
-| Example 1    | Title       |
-| Example 2  | Text        |
-| Example 3 | Text |
+## 1. `-c`
+- **Example 1**
+```
+kirthin@Kirthins-MacBook-Pro docsearch % grep -c Creative technical/plos/journal.pbio.0020047.txt
+2
+```
+- **Example 2**
+```
+kirthin@Kirthins-MacBook-Pro docsearch % grep -c tower technical/911report/chapter-9.txt        
+38
+```
+- **Example 3**
+```
+kirthin@Kirthins-MacBook-Pro docsearch % grep -c cell technical/biomed/1471-213X-3-4.txt   
+114
+```
 
 ## 2. `grep -v`
 - **Example 1**
