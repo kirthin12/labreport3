@@ -2,24 +2,24 @@
 
 
 ## 1. `-c`
-- **Example 1**
+- **Example 1:** Here we are finding how many times the word "Creative" pops up in this text file.  
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -c Creative technical/plos/journal.pbio.0020047.txt
 2
 ```
-- **Example 2**
+- **Example 2:** Here we are finding how many times the word "tower" pops up in this text file. 
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -c tower technical/911report/chapter-9.txt        
 38
 ```
-- **Example 3**
+- **Example 3:** Here we are finding how many times the word "cell" pops up in this text file. 
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -c cell technical/biomed/1471-213X-3-4.txt   
 114
 ```
 
 ## 2. `grep -v`
-- **Example 1**
+- **Example 1:** Here we are outputing the text file and omitting any line that contains the substring "subject". 
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -v subject technical/government/Media/5_Legal_Groups.txt
 
@@ -78,7 +78,7 @@ ways to go, with a bit more than half of the $4 million projected
 cost received so far. There still needed to be furnishings and
 office equipment and such. He promised that they would be getting
 ```
-- **Example 2**
+- **Example 2:** Here we are outputing the text file and omitting any line that contains the substring "the".
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -v the technical/biomed/1471-213X-3-4.txt
 
@@ -694,7 +694,7 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep -v the technical/biomed/1471-213X-
     
   
 ```
-- **Example 3**
+- **Example 3:** Here we are outputing the text file and omitting any line that contains the substring "The".
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -v The technical/plos/journal.pbio.0020047.txt 
 
@@ -762,7 +762,7 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep -v The technical/plos/journal.pbio
 ```
 
 ## 3. `grep --color=always`
-- **Example 1**
+- **Example 1:** Here we are highligthing/coloring and only inclduing lines that contain the substring "result".
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always results technical/biomed/1468-6708-3-7.txt
         of CHF results from a harmful effect of doxazosin, a
@@ -773,7 +773,7 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always results technical/b
 ```
 ![Image](image1.png)
 
-- **Example 2**
+- **Example 2:** Here we are highligthing/coloring and only inclduing lines that contain the substring "terrorism".
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always terrorism technical/911report/chapter-2.txt
                 terrorism and of attacks on civilians, he replied:"We believe that the worst thieves
@@ -781,7 +781,7 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always terrorism technical
 ```
 ![Image](image2.png)
 
-- **Example 3**
+- **Example 3:** Here we are highligthing/coloring and only inclduing lines that contain the substring "challenges".
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep --color=always challenges technical/government/About_LSC/diversity_priorities.txt 
 and challenges facing clients, staff and program leaders (both
