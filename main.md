@@ -78,6 +78,8 @@ ways to go, with a bit more than half of the $4 million projected
 cost received so far. There still needed to be furnishings and
 office equipment and such. He promised that they would be getting
 ```
+
+
 - **Example 2:** Here we are outputing the text file and omitting any line that contains the substring "the".
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -v the technical/biomed/1471-213X-3-4.txt
@@ -689,11 +691,9 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep -v the technical/biomed/1471-213X-
           transgenic - ΔCt 
           control = ΔΔCt. The value for "fold
           formula f = 2 ΔΔCt. The resulting data were expressed as
-        
-      
-    
-  
 ```
+
+
 - **Example 3:** Here we are outputing the text file and omitting any line that contains the substring "The".
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -v The technical/plos/journal.pbio.0020047.txt 
@@ -755,11 +755,10 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep -v The technical/plos/journal.pbio
         that affect the brain enhance creativity?
         In short, 
         about the nature of creativity, its origins in the mind/brain and in the human genome, and
-        its boundaries with health and disease.
-      
-    
-  
+        its boundaries with health and disease.  
 ```
+
+
 
 ## 3. `grep --color=always`
 
