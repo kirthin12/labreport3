@@ -2,6 +2,9 @@
 
 
 ## 1. `-c`
+
+This command is useful because it allows the user to see how many times a substring appears in a file. It is useful to obtain data about a file.
+
 - **Example 1:** Here we are finding how many times the word "Creative" pops up in this text file.  
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -c Creative technical/plos/journal.pbio.0020047.txt
@@ -19,6 +22,10 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep -c cell technical/biomed/1471-213X
 ```
 
 ## 2. `grep -v`
+
+This command is useful beacuse it allows the user to see a file without certain lines. By entering the substring, it will omit any lines containing that substring. This is useful for finding particular things in a file. 
+
+
 - **Example 1:** Here we are outputing the text file and omitting any line that contains the substring "subject". 
 
 ```
@@ -768,6 +775,8 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep -v The technical/plos/journal.pbio
 
 
 ## 3. `grep --color=always`
+
+This command is useful because it is like a search tool. It finds all instances of substring and colors them in on the terminal. This would be useful in programming when trying to find a method name or variable, etc. 
 
 - **Example 1:** Here we are highligthing/coloring and only inclduing lines that contain the substring "result".
 
