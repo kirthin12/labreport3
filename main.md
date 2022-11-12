@@ -20,6 +20,7 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep -c cell technical/biomed/1471-213X
 
 ## 2. `grep -v`
 - **Example 1:** Here we are outputing the text file and omitting any line that contains the substring "subject". 
+
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -v subject technical/government/Media/5_Legal_Groups.txt
 
@@ -81,6 +82,8 @@ office equipment and such. He promised that they would be getting
 
 
 - **Example 2:** Here we are outputing the text file and omitting any line that contains the substring "the".
+
+
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -v the technical/biomed/1471-213X-3-4.txt
 
@@ -694,7 +697,11 @@ kirthin@Kirthins-MacBook-Pro docsearch % grep -v the technical/biomed/1471-213X-
 ```
 
 
+
+
 - **Example 3:** Here we are outputing the text file and omitting any line that contains the substring "The".
+
+
 ```
 kirthin@Kirthins-MacBook-Pro docsearch % grep -v The technical/plos/journal.pbio.0020047.txt 
 
